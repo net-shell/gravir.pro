@@ -8,24 +8,24 @@
     <title>Лазерно гравиране | gravir.pro</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@200;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap">
     <link rel="stylesheet" href="./app.css">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body class="bg-gradient-to-br select-none from-white to-blue-200">
-    <nav class="p-2 bg-red-600 flex flex-wrap gap-x-8 gap-y-2 items-center uppercase font-bold text-xl">
-        <a href="/" class="text-2xl text-pink-700 text-white px-2 rounded-full border">gravir.pro</a>
-        <a href="#services" class="text-blue-100 hover:text-white transition" href="">Услуги</a>
-        <a href="#gallery" class="text-blue-100 hover:text-white transition" href="">Галерия</a>
-        <a href="#order" class="text-blue-100 hover:text-white transition" href="">Поръчка</a>
-        <a href="#contact" class="text-blue-100 hover:text-white transition" href="">Контакти</a>
+    <nav class="p-2 bg-red-600 flex flex-wrap gap-x-8 items-center justify-center uppercase font-bold text-xl">
+        <a href="/" class="w-full sm:w-auto text-2xl text-center text-pink-700 text-white px-2 rounded-full border">gravir.pro</a>
+        <a href="#services" class="p-2 text-blue-100 hover:text-white hover:underline transition" href="">Услуги</a>
+        <a href="#order" class="p-2 text-blue-100 hover:text-white hover:underline transition" href="">Поръчка</a>
+        <a href="#gallery" class="p-2 text-blue-100 hover:text-white hover:underline transition" href="">Галерия</a>
+        <a href="#contact" class="p-2 text-blue-100 hover:text-white hover:underline transition" href="">Контакти</a>
     </nav>
     <main class="container">
         <div class="bg-blue-200 bg-pattern-diamonds pb-8">
             <div class="flex flex-wrap items-end">
                 <header class="w-full sm:w-1/3 p-8 pt-40">
-                    <h1 class="text-6xl sm:text-7xl text-red-500">Лазерно гравиране</h1>
+                    <h1 class="text-6xl sm:text-7xl text-black">Лазерно гравиране</h1>
                 </header>
                 <aside class="w-full sm:w-2/3 px-6">
                     <div class="grid grid-cols-2 sm:grid-cols-3 gap-8 text-2xl text-center">
@@ -64,9 +64,17 @@
         <div id="services" class="flex flex-wrap py-8 gap-y-8">
             <div class="flex-1 px-4">
                 <h2 class="pb-4">
-                    <p class="text-4xl text-red-500 text-center">Услуги</p>
+                    <p class="text-4xl text-black text-center">Услуги</p>
                 </h2>
                 <div class="flex flex-wrap text-2xl text-blue-500 font-bold">
+                    <a class="flex-none w-full md:w-1/3 p-2 transition transform hover:scale-105 hover:text-black">
+                        <p>Категория</p>
+                        <img class="rounded" src="https://placeimg.com/640/640/any">
+                    </a>
+                    <a class="flex-none w-full md:w-1/3 p-2 transition transform hover:scale-105 hover:text-black">
+                        <p>Категория</p>
+                        <img class="rounded" src="https://placeimg.com/640/640/any">
+                    </a>
                     <a class="flex-none w-full md:w-1/3 p-2 transition transform hover:scale-105 hover:text-black">
                         <p>Категория</p>
                         <img class="rounded" src="https://placeimg.com/640/640/any">
@@ -98,9 +106,9 @@
             </div>
         </div>
 
-        <div id="gallery" class="px-2 py-8 bg-pattern-paper">
+        <div id="gallery" class="px-2 py-8 bg-pattern-bubbles">
             <h2 class="pb-4">
-                <p class="text-4xl text-red-500 text-center">Галерия</p>
+                <p class="text-4xl text-black text-center">Галерия</p>
             </h2>
             <div class="flex flex-wrap">
                 <a class="flex-none w-full md:w-1/4 p-4 transition transform hover:scale-105">
@@ -129,10 +137,10 @@
             </div>
         </div>
         
-        <div id="contact" class="flex flex-wrap py-8 bg-pattern-diamonds">
+        <div id="contact" class="flex flex-wrap py-8 bg-pattern-circuit">
             <div class="flex-1 px-4">
                 <h2 class="pb-2">
-                    <p class="text-4xl text-red-500 text-center">Контакти</p>
+                    <p class="text-4xl text-black text-center">Контакти</p>
                 </h2>
                 <div class="py-20 flex flex-wrap gap-8 justify-center">
                     <a href="mailto:contact@gravir.pro" class="rounded-full px-8 py-4 text-2xl text-white font-bold bg-blue-500 hover:bg-blue-400 transition-colors">
