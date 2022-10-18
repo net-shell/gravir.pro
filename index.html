@@ -14,37 +14,39 @@
 </head>
 
 <body class="bg-gradient-to-br select-none from-white to-blue-200">
-    <nav class="p-2 bg-red-600 flex flex-wrap gap-x-8 items-center justify-center uppercase font-bold text-xl">
-        <a href="/" class="w-full sm:w-auto text-2xl text-center text-pink-700 text-white px-2 rounded-full border">gravir.pro</a>
+    <nav class="fixed p-2 w-full bg-red-600/80 backdrop-blur-md flex flex-wrap gap-x-6 items-center justify-center uppercase font-bold text-xl z-50">
+        <a href="/" class="w-full sm:w-auto text-2xl text-center text-pink-700 text-white pt-1 px-2 rounded-full border">gravir.pro</a>
         <a href="#services" class="p-2 text-blue-100 hover:text-white hover:underline transition" href="">Услуги</a>
         <a href="#order" class="p-2 text-blue-100 hover:text-white hover:underline transition" href="">Поръчка</a>
         <a href="#gallery" class="p-2 text-blue-100 hover:text-white hover:underline transition" href="">Галерия</a>
         <a href="#contact" class="p-2 text-blue-100 hover:text-white hover:underline transition" href="">Контакти</a>
     </nav>
-    <main class="container">
-        <div class="bg-blue-200 bg-pattern-diamonds pb-8">
+    <main id="content">
+        <div class="bg-blue-200 bg-pattern-diamonds lg:pt-24 pb-8">
             <div class="flex flex-wrap items-end">
-                <header class="w-full sm:w-1/3 p-8 pt-40">
-                    <h1 class="text-6xl sm:text-7xl text-black">Лазерно гравиране</h1>
+                <header class="w-full lg:w-1/3 p-8 pt-40">
+                    <h1 class="text-5xl lg:text-6xl text-black">
+                        Лазерно гравиране
+                    </h1>
                 </header>
-                <aside class="w-full sm:w-2/3 px-6">
-                    <div class="grid grid-cols-2 sm:grid-cols-3 gap-8 text-2xl text-center">
-                        <p class="p-2 rounded bg-white/25 hover:bg-white/50 transition-colors">
+                <aside class="w-full lg:w-2/3 px-6">
+                    <div class="grid grid-cols-2 md:grid-cols-3 gap-8 sm:text-2xl text-red-900 text-center items-center">
+                        <p class="p-4 rounded-full bg-white/50 hover:bg-white transition-colors">
                             Лазерно гравиране върху всякакви материали
                         </p>
-                        <p class="p-2 rounded bg-white/25 hover:bg-white/50 transition-colors">
+                        <p class="p-4 rounded-full bg-white/50 hover:bg-white transition-colors">
                             Изработка на табелки със серийни номера и изображения
                         </p>
-                        <p class="p-2 rounded bg-white/25 hover:bg-white/50 transition-colors">
+                        <p class="p-4 rounded-full bg-white/50 hover:bg-white transition-colors">
                             Доставка от 2 до 5 дни с куриер до адрес
                         </p>
-                        <p class="p-2 rounded bg-white/25 hover:bg-white/50 transition-colors">
+                        <p class="p-4 rounded-full bg-white/50 hover:bg-white transition-colors">
                             Отстъпки за големи количества
                         </p>
-                        <p class="p-2 rounded bg-white/25 hover:bg-white/50 transition-colors">
+                        <p class="p-4 rounded-full bg-white/50 hover:bg-white transition-colors">
                             Намаления за редовни клиенти
                         </p>
-                        <p class="p-2 rounded bg-white/25 hover:bg-white/50 transition-colors">
+                        <p class="p-4 rounded-full bg-white/50 hover:bg-white transition-colors">
                             Партньорска програма за агенции
                         </p>
                     </div>
@@ -66,42 +68,46 @@
                 <h2 class="pb-4">
                     <p class="text-4xl text-black text-center">Услуги</p>
                 </h2>
-                <div class="flex flex-wrap text-2xl text-blue-500 font-bold">
-                    <a class="flex-none w-full md:w-1/3 p-2 transition transform hover:scale-105 hover:text-black">
-                        <p>Категория</p>
-                        <img class="rounded" src="https://placeimg.com/640/640/any">
+                <div class="flex flex-wrap text-2xl text-white font-bold">
+                    <a href="" class="relative flex-none p-4 sm:w-1/2 lg:w-1/3 transition transform hover:scale-105">
+                        <p class="absolute p-2 w-11/12 top-1/2 bg-black/40">
+                            Лазерно гравиране на дърво и кожа
+                        </p>
+                        <img class="rounded" src="https://placeimg.com/400/400/any">
                     </a>
-                    <a class="flex-none w-full md:w-1/3 p-2 transition transform hover:scale-105 hover:text-black">
-                        <p>Категория</p>
-                        <img class="rounded" src="https://placeimg.com/640/640/any">
+                    <a href="" class="relative flex-none p-4 sm:w-1/2 lg:w-1/3 transition transform hover:scale-105">
+                        <p class="absolute p-2 w-11/12 top-1/2 bg-black/40">
+                            Лазерно гравиране на метал
+                        </p>
+                        <img class="rounded" src="https://placeimg.com/400/400/any">
                     </a>
-                    <a class="flex-none w-full md:w-1/3 p-2 transition transform hover:scale-105 hover:text-black">
-                        <p>Категория</p>
-                        <img class="rounded" src="https://placeimg.com/640/640/any">
+                    <a href="" class="relative flex-none p-4 sm:w-1/2 lg:w-1/3 transition transform hover:scale-105">
+                        <p class="absolute p-2 w-11/12 top-1/2 bg-black/40">
+                            Лазерно гравиране на стъкло
+                        </p>
+                        <img class="rounded" src="https://placeimg.com/400/400/any">
                     </a>
-                    <a class="flex-none w-full md:w-1/3 p-2 transition transform hover:scale-105 hover:text-black">
-                        <p>Категория</p>
-                        <img class="rounded" src="https://placeimg.com/640/640/any">
+                    <a href="" class="relative flex-none p-4 sm:w-1/2 lg:w-1/3 transition transform hover:scale-105">
+                        <p class="absolute p-2 w-11/12 top-1/2 bg-black/40">
+                            Лазерно гравиране на оръжия
+                        </p>
+                        <img class="rounded" src="https://placeimg.com/400/400/any">
                     </a>
-                    <a class="flex-none w-full md:w-1/3 p-2 transition transform hover:scale-105 hover:text-black">
-                        <p>Категория</p>
-                        <img class="rounded" src="https://placeimg.com/640/640/any">
+                    <a href="" class="relative flex-none p-4 sm:w-1/2 lg:w-1/3 transition transform hover:scale-105">
+                        <p class="absolute p-2 w-11/12 top-1/2 bg-black/40">
+                            Лазерно гравиране на пръстени и халки
+                        </p>
+                        <img class="rounded" src="https://placeimg.com/400/400/any">
                     </a>
-                    <a class="flex-none w-full md:w-1/3 p-2 transition transform hover:scale-105 hover:text-black">
-                        <p>Категория</p>
-                        <img class="rounded" src="https://placeimg.com/640/640/any">
-                    </a>
-                    <a class="flex-none w-full md:w-1/3 p-2 transition transform hover:scale-105 hover:text-black">
-                        <p>Категория</p>
-                        <img class="rounded" src="https://placeimg.com/640/640/any">
-                    </a>
-                    <a class="flex-none w-full md:w-1/3 p-2 transition transform hover:scale-105 hover:text-black">
-                        <p>Категория</p>
-                        <img class="rounded" src="https://placeimg.com/640/640/any">
+                    <a href="" class="relative flex-none p-4 sm:w-1/2 lg:w-1/3 transition transform hover:scale-105">
+                        <p class="absolute p-2 w-11/12 top-1/2 bg-black/40">
+                            Лазерно гравиране на часовници
+                        </p>
+                        <img class="rounded" src="https://placeimg.com/400/400/any">
                     </a>
                 </div>
             </div>
-            <div class="flex-none w-full sm:w-1/3">
+            <div class="flex-none w-full sm:w-1/2 lg:w-1/3">
                 <iframe id="order" src="https://docs.google.com/forms/d/e/1FAIpQLSd2g8qbY7grEN0piOLGeqMr3yoopyo8UomziUjNg9Zjii05sw/viewform?embedded=true" width="100%" height="1100" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
             </div>
         </div>
@@ -111,33 +117,33 @@
                 <p class="text-4xl text-black text-center">Галерия</p>
             </h2>
             <div class="flex flex-wrap">
-                <a class="flex-none w-full md:w-1/4 p-4 transition transform hover:scale-105">
+                <a class="flex-none w-full sm:w-1/2 md:w-1/4 p-4 transition transform hover:scale-105">
                     <img class="rounded" src="https://placeimg.com/640/640/any">
                 </a>
-                <a class="flex-none w-full md:w-1/4 p-4 transition transform hover:scale-105">
+                <a class="flex-none w-full sm:w-1/2 md:w-1/4 p-4 transition transform hover:scale-105">
                     <img class="rounded" src="https://placeimg.com/640/640/any">
                 </a>
-                <a class="flex-none w-full md:w-1/4 p-4 transition transform hover:scale-105">
+                <a class="flex-none w-full sm:w-1/2 md:w-1/4 p-4 transition transform hover:scale-105">
                     <img class="rounded" src="https://placeimg.com/640/640/any">
                 </a>
-                <a class="flex-none w-full md:w-1/4 p-4 transition transform hover:scale-105">
+                <a class="flex-none w-full sm:w-1/2 md:w-1/4 p-4 transition transform hover:scale-105">
                     <img class="rounded" src="https://placeimg.com/640/640/any">
                 </a>
-                <a class="flex-none w-full md:w-1/4 p-4 transition transform hover:scale-105">
+                <a class="flex-none w-full sm:w-1/2 md:w-1/4 p-4 transition transform hover:scale-105">
                     <img class="rounded" src="https://placeimg.com/640/640/any">
                 </a>
-                <a class="flex-none w-full md:w-1/4 p-4 transition transform hover:scale-105">
+                <a class="flex-none w-full sm:w-1/2 md:w-1/4 p-4 transition transform hover:scale-105">
                     <img class="rounded" src="https://placeimg.com/640/640/any">
                 </a>
-                <div class="flex-none w-full md:w-1/4 p-4">
-                    <a class="block h-full p-4 rounded text-white text-2xl text-center bg-blue-500 hover:bg-blue-400 transition transform hover:scale-105 flex items-center justify-center">
+                <div class="flex-none w-full sm:w-1/2 md:w-1/4 p-4">
+                    <a href="#" class="block h-full p-4 rounded text-white text-2xl text-center bg-blue-500 hover:bg-blue-400 transition transform hover:scale-105 flex items-center justify-center">
                         Разгледайте останалите снимки от галерията
                     </a>
                 </div>
             </div>
         </div>
         
-        <div id="contact" class="flex flex-wrap py-8 bg-pattern-circuit">
+        <div id="contact" class="flex flex-wrap py-8 bg-pattern-circuit border-t border-b">
             <div class="flex-1 px-4">
                 <h2 class="pb-2">
                     <p class="text-4xl text-black text-center">Контакти</p>
@@ -153,9 +159,9 @@
             </div>
         </div>
     </main>
-    <footer class="py-8 text-center border-t">
+    <footer class="py-8 text-center">
         <div class="py-4">
-            <a href="/" class="rounded-full px-4 py-2 uppercase text-white font-bold bg-gray-400 hover:bg-blue-400 transition-colors">
+            <a href="#content" class="rounded-full px-4 py-2 uppercase text-white font-bold bg-gray-400 hover:bg-blue-400 transition-colors">
                 Лазерно гравиране | &copy; gravir.pro
             </a>
         </div>
